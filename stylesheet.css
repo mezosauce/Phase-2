@@ -9,7 +9,7 @@
 }
 
 body{
-    background: URL(Pics/background.jpg)
+    background: URL(Pics/background.PNG)
 }
 a {
     text-decoration: none;
@@ -106,20 +106,20 @@ margin-left: 20px;
 }
 .Face p:first-child {
     grid-area: 'first';
-    color: rgb(0, 241, 0);
+    color: rgb(255, 255, 0);
     font-size: 48px;
     z-index: 1;
 }
 .Face p:nth-child(2) {
     grid-area: 'middle';
-    color: rgb(34, 156, 34);
+    color: rgb(234, 255, 0);
     font-size: 48px;
     
 }
 
 .Face p:nth-child(3) {
     grid-area: 'last';
-    color: rgb(53, 173, 53);
+    color: rgb(208, 255, 0);
     font-size: 48px;
     z-index: 1;
 }
