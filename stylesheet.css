@@ -34,7 +34,7 @@ img {
 .head {
     width: 100%;
     height: auto; 
-    background-color: rgb(11, 3, 49);
+    background-color: rgb(5, 1, 22);
    padding: 20px; 
    box-shadow: 0 1px 3px rgb(0 0 0 / 10%), 
 0 2px 2px rgb(0 0 0 / 6%),
@@ -85,26 +85,42 @@ margin-left: 20px;
 .text-container{
     display: grid;
     grid-template-areas: 
-    'first first first'
+    ' first first first'
     '.'
-    'middle middle middle'
+    '. middle middle middle .'
     '.'
     'last last last';
     flex-direction: column;
+    align-self: center;
     flex: 1 1 auto;
+    margin-left: 5px;
 }
 
 .Face img{
     position: relative;
-    border: 3px rgb(16, 14, 78) solid;
+    border: 3px rgb(4, 4, 19) solid;
     border-radius: 40%;
     align-self: flex-end;  
     max-width: 50%;
     max-height: 50%;
 }
 .Face p:first-child {
-    
+    grid-area: 'first';
     color: rgb(0, 241, 0);
     font-size: 48px;
     z-index: 1;
 }
+.Face p:nth-child(2) {
+    grid-area: 'middle';
+    color: rgb(34, 156, 34);
+    font-size: 48px;
+    
+}
+
+.Face p:nth-child(3) {
+    grid-area: 'last';
+    color: rgb(53, 173, 53);
+    font-size: 48px;
+    z-index: 1;
+}
+
