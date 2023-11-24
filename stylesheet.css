@@ -108,22 +108,22 @@ margin-left: 20px;
     font-size: 48px;
     z-index: 1;
 }
-.main-container {
-    margin: 5px;
+.main-container {  
+    display:flex; 
     padding: 5px;
     background-color: rgb(8, 8, 133);
     color: #fff;
 }
 
 .main-container li{
-    list-style: circle;
+    list-style:decimal;
 }
 .main-container h1{
     margin: 5px;
     padding-top: 5px;
 }
 
-.Education {
+.main-container .Education {
     margin: 10px;
 }
 
