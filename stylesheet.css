@@ -13,7 +13,7 @@ body{
 }
 a {
     text-decoration: none;
-    color: rgb(0, 241, 0);
+    color: rgb(27, 51, 159)
 }
 ul{
     list-style: none;
@@ -23,18 +23,20 @@ ul{
 li {
     margin: 5px 0;
     line-height: 1.7;
+    font-family: cursive;
+    color:blue;
 }
 
 
 img {
-    max-width: 100%;
+    max-width: 50%;
 }
 
 /*HEAD*/
 .head {
     width: 100%;
     height: auto; 
-    background-color: rgb(5, 1, 22);
+    background-color: rgb(0, 0, 0);
    padding: 20px; 
    box-shadow: 0 1px 3px rgb(0 0 0 / 10%), 
 0 2px 2px rgb(0 0 0 / 6%),
@@ -64,7 +66,7 @@ margin-left: 20px;
 
 .head img{
     width: auto;
-    height: 60px;
+    height: 50px;
 
 }
 
@@ -72,9 +74,9 @@ margin-left: 20px;
 .Face {
     display: flex;
     justify-content: space-around;
-    align-items: center;
-    flex-direction: row-reverse;
-    padding: 20px;
+    align-items: flex-end;
+    flex-direction: row;
+    margin-left: 10px;
 }
 
 .pic-container{
@@ -95,7 +97,6 @@ margin-left: 20px;
     position: relative;
     border: 3px rgb(4, 4, 19) solid;
     border-radius: 40%;
-    align-self: flex-end;  
     max-width: 50%;
     max-height: 50%;
     margin-right: 5px;
@@ -115,12 +116,12 @@ margin-left: 20px;
     display:flex; 
     flex-direction: column;
     padding: 5px;
-    background-color: rgb(3, 3, 46);
-    color: #fff;
+    background-color: rgb(255, 255, 255);
+    color: #000000;
 }
 
 .main-container li{
-    list-style:decimal;
+    list-style: decimal;
 }
 .main-container h1{
     margin: 5px; 
@@ -130,19 +131,37 @@ margin-left: 20px;
 .main-container .Education {
     margin: 10px;
 }
-
+.main-container .Education ul{
+    display: flex;
+    justify-content: space-between
+}
+.main-container .Education li{
+    list-style: none;
+}
 /*Skill*/
 .main-container .Skill {
     display: flex;
-    flex-direction: column;
-
+    flex-direction: row;
+    justify-content: space-between;
+}
+.main-container .Skill h1{
+    position: relative;
 }
 .main-container .Skill ul{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 .main-container .Skill li{
     list-style: none;
     margin-left: 10px;
 }
 
+/*PROJECTS*/
+.main-container .Projects ul li:first-child{
+    color: red;
+    font-weight: bold;
+    margin: 10px;
+}
+summary{
+    margin-left: 10px;
+}
