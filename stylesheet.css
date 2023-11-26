@@ -68,7 +68,7 @@ margin-left: 20px;
 
 }
 
-
+/*PIC AND NAME*/
 .Face {
     display: flex;
     justify-content: space-around;
@@ -108,10 +108,13 @@ margin-left: 20px;
     font-size: 48px;
     z-index: 1;
 }
+
+/*MAIN INFORMATION*/
 .main-container {  
     display:flex; 
+    flex-direction: column;
     padding: 5px;
-    background-color: rgb(8, 8, 133);
+    background-color: rgb(3, 3, 46);
     color: #fff;
 }
 
@@ -119,11 +122,26 @@ margin-left: 20px;
     list-style:decimal;
 }
 .main-container h1{
-    margin: 5px;
+    margin: 5px; 
     padding-top: 5px;
 }
-
+/*Education*/
 .main-container .Education {
     margin: 10px;
+}
+
+/*Skill*/
+.main-container .Skill {
+    display: flex;
+    flex-direction: column;
+
+}
+.main-container .Skill ul{
+    display: flex;
+    flex-direction: row;
+}
+.main-container .Skill li{
+    list-style: none;
+    margin-left: 10px;
 }
 
