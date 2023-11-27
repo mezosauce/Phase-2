@@ -173,7 +173,10 @@ margin-left: 20px;
 summary{
     margin-left: 10px;
 }
-.main-container .Activities details summary ul li{
+.main-container details{
+    margin: 10px;
+}
+.main-container .Activities details summary ul{
     color: blue;
     list-style: none;
     font-weight: bold;
