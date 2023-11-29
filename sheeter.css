@@ -9,6 +9,7 @@
 }
 
 body{
+    flex-wrap: wrap;
     background-image: linear-gradient(blue,black,white);
 }
 a {
@@ -110,7 +111,7 @@ margin-left: 20px;
 .Face p {
     color: rgb(234, 64, 64);
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 52px;
+    font-size: 55px;
     z-index: 1;
 }
 .Face img{
@@ -127,16 +128,9 @@ margin-left: 20px;
 
 /*MAIN INFORMATION*/
 .main-container {  
-    display: flex; 
-    margin: 20px 0 40px;
-
+    height: auto;
+    display:flex; 
+    flex-direction: column;
+    padding: 5px;
+    color: #000000;
 }
-
-.main-links{
-    margin-right: 50px;
-    font-size: 18px;
-    font-weight: 500;
-    cursor: pointer;
-    position: relative;
-}
-
