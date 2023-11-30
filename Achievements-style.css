@@ -160,3 +160,16 @@ margin-left: 20px;
     padding: 5px;
     color: #000000;
 }
+.Activities details{
+display: flex;
+flex-direction: column;
+}
+
+.Activities details summary span{
+    margin: 10px;
+    line-height: 1.7;
+    font-size: 17px;
+    font-family: cursive;
+    color:white;
+    list-style: none;
+}
