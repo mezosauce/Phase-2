@@ -10,7 +10,7 @@
 
 body{
     flex-wrap: wrap;
-    background-image: linear-gradient(blue,black,white);
+    background: rgba(10, 10, 10, 0.995)
 }
 a {
     text-decoration: none;
@@ -39,7 +39,7 @@ li {
 }
 
 .About{
-    color: rgba(255, 255, 255, 0.689);
+    color: rgba(255, 255, 255, 0.767);
     font-size: 25px;
     width: 30%;
     margin-top: 3%;
@@ -115,13 +115,11 @@ margin-left: 20px;
     display: flex;
     flex-direction: column;
     align-self: flex-start;
-    margin-top: 0;
-    margin-left: 0;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 30px;
+    margin-left: 10px;
 }
 .Face p {
     color: rgb(234, 64, 64);
-    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 47px;
     z-index: 1;
 }
@@ -132,6 +130,7 @@ margin-left: 20px;
     max-width: 50%;
     max-height: 50%;    
     margin-left: 45%;
+    margin-top: 20px;
 }
 
 
@@ -144,4 +143,8 @@ margin-left: 20px;
     flex-direction: column;
     padding: 5px;
     color: #000000;
+}
+.Education{
+    margin-top: 100px;
+    background-color: rgb(1, 1, 72);
 }
