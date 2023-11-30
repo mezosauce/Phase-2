@@ -10,7 +10,7 @@
 
 body{
     flex-wrap: wrap;
-    background-image: linear-gradient(blue,black,white);
+    background: rgba(10, 10, 10, 0.995)
 }
 a {
     text-decoration: none;
@@ -45,6 +45,7 @@ li {
     font-size: 25px;
     width: 30%;
     margin-top: 3%;
+    background-color: rgb(1, 1, 72);
 }
 span{
     color: white;
@@ -63,6 +64,7 @@ details {
     display: flex;
 }
 summary{
+    font-size: 20px;
     color: white;
     margin: 10px;
     cursor: pointer;
@@ -126,9 +128,8 @@ margin-left: 20px;
     display: flex;
     flex-direction: column;
     align-self: flex-start;
-    margin-top: 0;
-    margin-left: 0;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 30px;
+    margin-left: 10px;
 }
 .Face p {
     color: rgb(234, 64, 64);
@@ -157,20 +158,26 @@ margin-left: 20px;
 /*MAIN INFORMATION*/
 .main-container {  
     height: auto;
-    display:flex; 
+    display: flex; 
     flex-direction: column;
     padding: 5px;
-    color: #000000;
+    background-color: rgb(1, 1, 72);
+
 }
+
 .Activities {
 display: flex;
+justify-content: space-evenly;
 flex-direction: row;
+margin-top: 100px;
+background-color: rgb(1, 1, 72);
+width: 120%;
 }
 
 .Activities details summary ul li{
     margin: 10px;
     line-height: 1.7;
-    font-size: 17px;
+    font-size: 20px;
     font-family: cursive;
     color:white;
     list-style: none;
