@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Sofia+Sans+Condensed:ital,wght@0,500;0,700;1,200&display=swap');
+
+
+* {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    flex-wrap: wrap;
+    background-image: linear-gradient(blue,black,white);
+}
+a {
+    text-decoration: none;
+    color: rgb(27, 51, 159);
+}
+ul{
+    list-style: none;
+
+}
+
+li {
+    margin: 10px;
+    line-height: 1.7;
+    font-family: cursive;
+    color:rgb(255, 255, 255);
+    list-style: none;
+}
+
+.About{
+    color: rgba(255, 255, 255, 0.689);
+    font-size: 25px;
+    width: 30%;
+    margin-top: 3%;
+}
+span{
+    color: white;
+    font-size: 13px;
+    width: 40%;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+img {
+    max-width: 50%;
+    width: 50%;
+    height: 50%;
+}
+details {
+    display: flex;
+}
+summary{
+    color: white;
+    margin: 10px;
+}
+
+
+/*HEAD*/
+.head {
+    width: 100%;
+    height: auto; 
+    background-color: rgb(0, 0, 0);
+   padding: 20px; 
+   box-shadow: 0 1px 3px rgb(0 0 0 / 10%), 
+0 2px 2px rgb(0 0 0 / 6%),
+ 0 0 2px rgb(0 0 0 / 7%);
+}
+
+a:hover {
+    color: rgb(241, 2, 2);
+    cursor: pointer;
+}
+
+.head-container {
+    display: flex;
+    align-items: center;
+}
+.head-title {
+text-transform: uppercase;
+justify-content: space-around;    
+flex: 1;
+margin-left: 20px;
+}
+
+
+.head ul{
+    display: flex;
+    text-align: center;
+}
+
+.head img{
+    width: auto;
+    height: 50px;
+
+}
+
+/*PIC AND NAME*/
+.Face {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    flex-direction: row-reverse;
+    margin-left: 10px;
+}
+
+.pic-container{
+    margin-top : 0px; 
+    flex: 3 1 50%;
+}
+
+.text-container{
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    margin-top: 0;
+    margin-left: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.Face p {
+    color: rgb(234, 64, 64);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 47px;
+    z-index: 1;
+}
+.Face img{
+    position: relative;
+    border: 3px rgb(4, 4, 19) solid;
+    border-radius: 40%;
+    max-width: 50%;
+    max-height: 50%;    
+    margin-left: 45%;
+}
+
+
+/*Skills*/
+
+.Skills-container{
+    display: flex;
+
+}
+
+/*MAIN INFORMATION*/
+.main-container {  
+    height: auto;
+    display:flex; 
+    flex-direction: column;
+    padding: 5px;
+    color: #000000;
+}
