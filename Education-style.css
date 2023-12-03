@@ -10,7 +10,7 @@
 
 body{
     flex-wrap: wrap;
-    background: rgba(10, 10, 10, 0.995)
+    background: rgba(0, 0, 0, 0.990)
 }
 a {
     text-decoration: none;
@@ -40,9 +40,10 @@ li {
 
 .About{
     color: rgba(255, 255, 255, 0.767);
-    font-size: 25px;
-    width: 30%;
+    font-size: 40px;
+    width: 30%;     
     margin-top: 3%;
+    margin-left: 5px;
 }
 span{
     color: white;
@@ -119,7 +120,7 @@ margin-left: 20px;
     margin-left: 10px;
 }
 .Face p {
-    color: rgb(234, 64, 64);
+    color: yellow;
     font-size: 47px;
     z-index: 1;
 }
@@ -142,10 +143,10 @@ margin-left: 20px;
     display: flex; 
     flex-direction: column;
     padding: 5px;
-    background-color: rgb(1, 1, 72);
+    background-image: linear-gradient(rgba(4, 4,4, 0.99),rgba(4, 4, 4, 0.990),yellow);
 
 }
 .Education{
     margin-top: 100px;
-    background-color: rgb(1, 1, 72);
+    background-image: radial-gradient(black,rgba(4,4,4,.99));
 }
