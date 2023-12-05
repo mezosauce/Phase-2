@@ -10,7 +10,7 @@
 
 body{
     flex-wrap: wrap;
-    background-image: linear-gradient(blue,black,white);
+    background: rgba(0, 0, 0, 0.990);
 }
 a {
     text-decoration: none;
@@ -43,11 +43,6 @@ span{
     margin-left: 10px;
 }
 
-img {
-    max-width: 50%;
-    width: 50%;
-    height: 50%;
-}
 details {
     display: flex;
 }
@@ -119,7 +114,7 @@ margin-left: 20px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .Face p {
-    color: rgb(234, 64, 64);
+    color: yellow;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 47px;
     z-index: 1;
@@ -148,5 +143,5 @@ margin-left: 20px;
     display:flex; 
     flex-direction: column;
     padding: 5px;
-    color: #000000;
+    background-image: linear-gradient(rgba(4, 4,4, 0.99),rgba(4, 4, 4, 0.990),yellow);
 }
