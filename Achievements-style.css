@@ -10,7 +10,7 @@
 
 body{
     flex-wrap: wrap;
-    background: rgba(10, 10, 10, 0.995)
+    background: rgba(0, 0, 0, 0.990)
 }
 a {
     text-decoration: none;
@@ -25,7 +25,7 @@ li {
     margin: 10px;
     line-height: 1.7;
     font-family: cursive;
-    color:rgb(255, 255, 255);
+    color:blue;
     list-style: none;
 }
 
@@ -41,17 +41,18 @@ li {
 
 .About{
     display: flex;
-    color: rgba(255, 255, 255, 0.689);
-    font-size: 25px;
-    width: 30%;
-    margin-top: 3%;
-    background-color: rgb(1, 1, 72);
+    justify-content: space-between;
+    color: rgba(255, 255, 255, 0.767);
+    font-size: 40px;
+    width: 30%;   
+    margin-top: 1%;  
+    margin-left: 5px;
 }
 span{
     color: white;
     font-size: 13px;
     width: 40%;
-    margin-top: 10px;
+    margin-top: 20px;
     margin-left: 10px;
 }
 
@@ -68,6 +69,7 @@ summary{
     color: white;
     margin: 10px;
     cursor: pointer;
+    color: rgb(125, 4, 207);
 }
 
 
@@ -132,8 +134,7 @@ margin-left: 20px;
     margin-left: 10px;
 }
 .Face p {
-    color: rgb(234, 64, 64);
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: yellow;
     font-size: 47px;
     z-index: 1;
 }
@@ -148,10 +149,11 @@ margin-left: 20px;
 }
 
 
+
 /*Skills*/
 
 .Skills-container{
-    display: flex;
+    display: flex;  
 
 }
 
@@ -161,17 +163,18 @@ margin-left: 20px;
     display: flex; 
     flex-direction: column;
     padding: 5px;
-    background-color: rgb(1, 1, 72);
+    background-image: linear-gradient(rgba(4, 4,4, 0.99),rgba(4, 4, 4, 0.990),yellow);
 
 }
 
 .Activities {
 display: flex;
-justify-content: space-evenly;
-flex-direction: row;
-margin-top: 100px;
+justify-content: space-between;
+flex-direction: column;
 background-color: rgb(1, 1, 72);
-width: 120%;
+margin-top: 100px;
+width: 130%;
+background-image: radial-gradient(rgb(32, 22, 31),rgba(4,4,4,.99));
 }
 
 .Activities details summary ul li{
