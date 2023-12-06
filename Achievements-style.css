@@ -136,11 +136,10 @@ margin-left: 20px;
 .Face img{
     position: relative;
     border: 3px rgb(4, 4, 19) solid;
-    border-radius: 40%;
-    max-width: 50%;
-    max-height: 50%;    
-    margin-left: 45%;
-    margin-top: 20px;
+    max-width: 40%;
+    max-height: 10%;    
+    margin-left: 50%;
+    margin-bottom: 0;
 }
 
 
