@@ -38,9 +38,12 @@ span{
     display: block;
 }
 .Face img{
-        max-width: 90%;
+        max-width: 100%;
         padding: auto;
         margin: auto;
+        border: 3px rgb(4, 4, 19) solid;
+        border-radius: 40%;
+        width: 700px;
 }
 
 
@@ -75,7 +78,7 @@ background-image: radial-gradient(rgb(32, 22, 31),rgba(4,4,4,.99));
     }
 
     .Face .pic-container img{
-
+        width: 700px;
         border: 3px rgb(4, 4, 19) solid;
         border-radius: 40%;    
 
