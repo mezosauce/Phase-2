@@ -66,23 +66,25 @@ background-image: radial-gradient(rgb(32, 22, 31),rgba(4,4,4,.99));
 
 @media (max-width: 700px) {
     .mezo{
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
+        margin-top: 10%;
+        justify-content: space-around;
         align-items: center;
+        flex-wrap: wrap;
     }
      
     .Face {
         display: flex;
         justify-content: center;
     }
+    .Face .pic-container {
+     height: 10rem;
+     width: 10rem;
 
+    }
     .Face .pic-container img{
-        width: 700px;
+        height: 100%;
         border: 3px rgb(4, 4, 19) solid;
         border-radius: 40%;    
-
-        align-self: center;
     }
 
     .Face .text-container{
@@ -92,4 +94,36 @@ background-image: radial-gradient(rgb(32, 22, 31),rgba(4,4,4,.99));
         width: 90%;
         background-image: radial-gradient(rgb(32, 22, 31),rgba(4,4,4,.99));
         }
-}
+    }
+    
+@media (min-width: 400px) {
+    .mezo{
+        margin-top: 10%;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+     
+    .Face {
+        display: flex;
+        justify-content: center;
+    }
+    .Face .pic-container {
+     height: 10rem;
+     width: 10rem;
+
+    }
+    .Face .pic-container img{
+        height: 100%;
+        border: 3px rgb(4, 4, 19) solid;
+        border-radius: 40%;    
+    }
+
+    .Face .text-container{
+        margin-left: 1px;
+    }
+    .Me{
+        width: 90%;
+        background-image: radial-gradient(rgb(32, 22, 31),rgba(4,4,4,.99));
+        }    
+    }
