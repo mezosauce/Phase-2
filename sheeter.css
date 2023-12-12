@@ -1,12 +1,6 @@
 
 
-.About{
-    color: rgba(255, 255, 255, 0.767);
-    font-size: 40px;
-    width: 30%;     
-    margin-top: 3%;
-    margin-left: 5px;
-}
+
 span{
     
     color: white;
@@ -20,12 +14,7 @@ span{
 }
 
 
-.Face .pic-container span{
-    font-size: 3rem;
-    text-transform: uppercase;
-    padding-bottom: 3%;
-    display: block;
-}
+
 .Face img{
         max-width: 100%;
         
@@ -36,9 +25,7 @@ span{
 }
 
 
-h1 {
-    font-size: 2rem;
-}
+
 
 
 .Me{
@@ -48,50 +35,14 @@ background-image: radial-gradient(rgb(32, 22, 31),rgba(4,4,4,.99));
 }
 
 
-.mezo{
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row-reverse;
-    align-items: flex-end;
-}
+
 
 
 
 
 @media (max-width: 600px) {
-    .mezo{
-        width: 100%;
-        margin-top: 10%;
-        justify-content: space-around;
-        flex-direction: column;
-        align-items: center;
-        flex-wrap: wrap;
-    }
-     
-    .Face {
-     display: flex;   
-        justify-content: center;
-    }
-
-    .Face .pic-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    }
-    .Face img{
-        height: 100%;
-        width: 700px;
-        margin-top: 10%;
-        border: 3px rgb(4, 4, 19) solid;
-         border-radius: 0;
-         max-width: 300%;
-        
-        
-    }
-
-    .Face .text-container{
-        margin-left: 1px;
-    }
+ 
+   
     .Me{
         width: 90%;
         background-image: radial-gradient(rgb(32, 22, 31),rgba(4,4,4,.99));
