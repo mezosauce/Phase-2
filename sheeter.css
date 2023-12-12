@@ -20,18 +20,7 @@ span{
 }
 
 
-.Face .Face-container {
-    max-width: 1300px;
-    margin: 10%;
-    padding: 3% 0;
-}
-.Face .Face-container .pic-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-}
-.Face .Face-container .pic-container span{
+.Face .pic-container span{
     font-size: 3rem;
     text-transform: uppercase;
     padding-bottom: 3%;
