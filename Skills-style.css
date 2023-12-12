@@ -1,7 +1,7 @@
 
 
 .Face li{
-    margin: 10px;
+    margin: 5px;
     line-height: 1.7;
     font-size: 17px;
     font-family: cursive;
@@ -26,13 +26,7 @@ span{
 }
 
 
-details {
-    display: flex;
-}
-summary{
-    color: white;
-    margin: 10px;
-}
+
 
 
 
@@ -53,10 +47,42 @@ summary{
 }
 .Skills{ 
     margin-top: 100px;
-    background-image: radial-gradient(rgb(32, 22, 31),rgba(4,4,4,.99));}
+    background-image: radial-gradient(rgb(32, 22, 31),rgba(4,4,4,.99));
+
+}
 
 
 .Skills-container span{
     font-size: 17px;
     color: rgb(125, 4, 207);
+    
+}
+
+
+@media (max-width: 600px) {
+    .admin{
+        width: 600px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-left: 0;
+    }
+
+    .Skills{ 
+        margin-top: 100px;
+        background-image: radial-gradient(rgb(32, 22, 31),rgba(4,4,4,.99));
+    }
+    .Skills-container {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        width: 50%;
+
+    }
+
+    
+    .Face .pic-container img{
+        position: relative;
+        border: 3px rgb(4, 4, 19) solid;
+        width: 20rem;
+}
 }
