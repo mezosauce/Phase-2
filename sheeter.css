@@ -47,7 +47,9 @@ span{
 }
 
 
-
+h1 {
+    font-size: 2rem;
+}
 
 
 .Me{
@@ -63,6 +65,9 @@ background-image: radial-gradient(rgb(32, 22, 31),rgba(4,4,4,.99));
     flex-direction: row-reverse;
     align-items: flex-end;
 }
+
+
+
 
 @media (max-width: 600px) {
     .mezo{
@@ -92,7 +97,7 @@ background-image: radial-gradient(rgb(32, 22, 31),rgba(4,4,4,.99));
          border-radius: 0;
          max-width: 300%;
         
-         width: 700px;
+        
     }
 
     .Face .text-container{
