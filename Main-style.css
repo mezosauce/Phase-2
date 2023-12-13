@@ -104,6 +104,7 @@ margin-left: 20px;
     cursor:pointer;
     position: relative;
     color:rgb(0, 11, 158);
+    font-size: 1.5rem;
 }
 
 .tab-links::after{
@@ -132,6 +133,11 @@ margin-left: 20px;
     display: block;
     
 }
+
+.tab-contents li{
+    font-size: 1.1rem;
+}
+
 #skills ul{
     display: flex;
     flex-direction: row;
@@ -354,6 +360,7 @@ margin-left: 20px;
             width: 50%;
             display: flex;
             margin: 20px 10px 40px;
+            font-size: 1rem;
         }
         
 
