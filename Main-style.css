@@ -110,7 +110,7 @@ margin-left: 20px;
     content: '';
     width: 0;
     height: 3px;
-    background:rgb(3, 9, 39);
+    background:blue;
     position:absolute;
     left: 0;
     bottom: -8px;
@@ -121,6 +121,10 @@ margin-left: 20px;
 .tab-links.active-link::after{
     width: 50%;
 
+}
+
+.tab-contents{
+    display: none;
 }
 
 
