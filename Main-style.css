@@ -38,7 +38,7 @@ li {
     margin: 10px;
     line-height: 1.7;
     font-family: cursive;
-    color:blue;
+    color: rgb(125, 4, 207);
     list-style: none;
 }
 
@@ -94,7 +94,7 @@ margin-left: 20px;
 
 .tab-titles{
     display: flex;
-    margin: 20px 0 40px;
+    margin: 20px 30px 40px;
 }
 
 .tab-links{
@@ -128,6 +128,14 @@ margin-left: 20px;
 }
 
 
+.tab-contents.active-tab{
+    display: block;
+    
+}
+#skills ul{
+    display: flex;
+    flex-direction: row;
+}
 
 
 
@@ -220,7 +228,7 @@ margin-left: 20px;
 
   .head-title li {
     margin-right: 20px;
-  }
+  }*
 
   .hamburger-menu {
     display: none;
