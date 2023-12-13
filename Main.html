@@ -14,8 +14,6 @@
 <body>
     <section class="admin">
     <nav class="head">
-     <div class="head-container">
-        <nav class="head">
             <div class="head-container">
             
                <div class="hamburger-menu">&#9776;</div>
@@ -63,8 +61,10 @@
             was born in Augest 5th, 2002  from <a href="https://www.google.com/search?q=port+said&sca_esv=588105669&sxsrf=AM9HkKmBiVCfI_KExNVsudrTawDwbuIWPA%3A1701805634216&source=hp&ei=Qn5vZaDuCvOwur8P3Z25iAU&iflsig=AO6bgOgAAAAAZW-MUkf4TlLMxMv6BSgaI_LrAyZt8WkY&gs_ssp=eJzj4tTP1TcwTDHOSDdg9OIsyC8qUShOzEwBAEcVBrA&oq=port+said&gs_lp=Egdnd3Mtd2l6Iglwb3J0IHNhaWQqAggAMgsQLhiDARixAxiABDIREC4YgwEYrwEYxwEYsQMYgAQyCxAuGK8BGMcBGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgsQLhiABBjHARivAUjFOlDXFVikNXADeACQAQCYAXegAc0IqgEDNS42uAEDyAEA-AEBqAIKwgIHECMY6gIYJ8ICBxAuGOoCGCfCAg4QLhiABBixAxjHARjRA8ICCxAAGIAEGLEDGIMBwgIIEAAYgAQYsQPCAgsQLhiABBjHARjRA8ICERAuGIAEGLEDGIMBGMcBGNEDwgIKECMYgAQYigUYJ8ICDhAuGIAEGMcBGK8BGI4FwgIIEC4YgAQYsQPCAhEQLhiDARjHARixAxjRAxiABMICCxAuGIAEGLEDGIMBwgIEECMYJ8ICDhAuGIAEGIoFGLEDGIMBwgIOEAAYgAQYigUYsQMYgwHCAgUQLhiABMICCxAAGIAEGIoFGLEDwgIIEC4YsQMYgATCAhMQLhiABBiKBRixAxjHARjRAxgKwgIREC4YgAQYigUYsQMYxwEY0QPCAhQQLhiDARivARjHARixAxiABBiKBcICEBAAGIAEGIoFGLEDGIMBGAo&sclient=gws-wiz">
                 Port Said, Egypt</a>
             Inspired to be a successful Fullstack and Software Developer.
-                Currently a 3rd year persuing Computer Sciences in <a style="color: red;" href="https://www.uc.edu/">University of Cincinnati (main)</a>. Elmoataz is currently in CO-OP rotation
-                for Research on Web Development.
+                Currently a 3rd year persuing Computer Sciences in <a style="color: red;" href="https://www.uc.edu/">University of Cincinnati (main)</a>. Elmoataz just recently finished his first COOP Rotation
+                for EEP research for Full-Stack Development. Elmoataz graduated from Norwood High School in 2021 with AP credits from Biology and English while in persuing his high schools diploma. 
+                Elmoataz adulted with his constant hunger for improvements while doing sports such as Swimming, Cross Country, Wrestling, Football, Tennis, and Track. But now Elmoataz 
+                persues constant improvements from boxing since he's joined the Bearcat Community. 
             </span>
         </div>
 
@@ -72,14 +72,14 @@
     </div>
 </section>
         <div class="tab-titles"> 
-            <p class="tab-links active-link">Education</p>
-            <p class="tab-links">Skills</p>
-            <p class="tab-links">Projects</p>
-            <p class="tab-links">Achievements</p>
+            <p class="tab-links active-link" onclick="opentab('education')">Education</p>
+            <p class="tab-links" onclick="opentab('skills')">Skills</p>
+            <p class="tab-links" onclick="opentab('projects')">Projects</p>
+            <p class="tab-links" onclick="opentab('achievements')">Achievements</p>
          </div>
          
 
-         <div class="tab-contents active-tab">
+         <div class="tab-contents active-tab" id="education">
             <ul>
                 <li><span class="About"> <i class="fa-solid fa-graduation-cap" ></i> Education</span><br> <ul style="margin-left: 10px;">    
                     <li>Computer Science 1</li>
@@ -89,7 +89,7 @@
                 </ul></li>
             </ul>
          </div>
-         <div class="tab-contents">
+         <div class="tab-contents" id="skills">
             <ul>
                 <li><span class="About"> <i class="fa-solid fa-brain"></i> Skills</span><br>
                 
@@ -127,7 +127,7 @@
                     </ul></li>
             </ul>
          </div>
-         <div class="tab-contents">
+         <div class="tab-contents" id="projects">
             <li><span class="About"> <i class="fa-solid fa-code"></i> Projects</span><br>
             
             
@@ -168,7 +168,7 @@
          </div>
 
 
- <div class="tab-contents">
+ <div class="tab-contents" id="achievements">
             <li> <span class="About"><i class="fa-solid fa-list-check"></i> Achievements</span><br>
                 <span>Activties</span>
         
@@ -214,25 +214,44 @@
 
 
 
-
-
-
-    <section class="main-container">
-        <h1 style="color:white;">Contact</h1>
-        <hr color = "white" size="3px">
-        <div style="margin: 10px 0 0 10px;">
-            
-            <div style="display: flex; justify-content: space-around; margin-top: 30px; color: white">
-            <strong>Email: <a href="abdellea@mail.uc.edu">abdellea@mail.uc.edu</a></strong>
-            <br>
-            <strong>Phone: <a href="513-915-4025">513-915-4025</a></strong>
-        </div>
-    </section>
-
-
-    
 </section>
+<div class="main-container">
+    <h1 style="color:white;">Contact</h1>
+    <hr color = "white" size="3px">
+    <div style="margin: 10px 0 0 10px;">
+        
+        <div style="display: flex; justify-content: space-around; margin-top: 30px; color: white">
+        <strong>Email: <a href="abdellea@mail.uc.edu">abdellea@mail.uc.edu</a></strong>
+        <br>
+        <strong>Phone: <a href="513-915-4025">513-915-4025</a></strong>
+    </div>
+    </div>
+</div>
 
+<script>
+
+
+/*******TAB LINKS SWITCH UP**********/
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+
+
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+            
+
+        }
+
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");    }
+
+
+</script>
 
 
 </body>  
