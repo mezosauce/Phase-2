@@ -60,7 +60,7 @@ h1 {
  0 0 2px rgb(0 0 0 / 7%);
 }
 
-a:hover {
+a:hover, .tab-titles p:hover{
     color: rgb(241, 2, 2);
     cursor: pointer;
 }
@@ -103,14 +103,14 @@ margin-left: 20px;
     font-weight: 500;
     cursor:pointer;
     position: relative;
-    color:white;
+    color:rgb(0, 11, 158);
 }
 
 .tab-links::after{
     content: '';
     width: 0;
     height: 3px;
-    background:blue;
+    background:rgb(255, 0, 0);
     position:absolute;
     left: 0;
     bottom: -8px;
@@ -246,6 +246,18 @@ margin-left: 20px;
 
 /* Extra small devices (phones, 600px and down) */
 @media (max-width: 600px) {
+
+.admin{
+    width: 90%;
+}
+.About{
+    color: rgba(255, 255, 255, 0.767);
+    font-size: 30px;
+    width: 30%;     
+    margin-top: 3%;
+    margin-left: 5px;
+}
+
     .main-container {  
         width: 100%;
         
@@ -330,16 +342,22 @@ margin-left: 20px;
 
 
 
-       .Me{
+       .tab-contents{
         width: 70%;
-        margin-top: 100px;
-        background-image: radial-gradient(rgb(32, 22, 31),rgba(4,4,4,.99));
+        }
+        #skills ul{
+            display: flex;
+            flex-direction: column;
         }
         
-}
+        .tab-titles{
+            width: 50%;
+            display: flex;
+            margin: 20px 10px 40px;
+        }
+        
 
-
-
+    }
 
 
 
