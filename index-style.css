@@ -8,7 +8,21 @@
     padding: 0;
 }
 
+.admin{
+    width: 100%;
+    height: 100%;
+}
+span{
+    
+    color: white;
+    font-size: 20px;
+    margin-top: auto;
+    margin-left: 10px;
+    line-height: 1.7;
 
+    color:white;
+    padding: auto;
+}
 
 
 .About{
@@ -50,7 +64,7 @@ h1 {
     font-size: 2rem;
 }
 
-/*HEAD*/
+/***************HEAD**************/
 .head {
     width: 100%;
     height: auto; 
@@ -153,11 +167,6 @@ margin-left: 20px;
 
 
 
-
-
-
-
-
 /*PIC AND NAME*/
 
 .Face {
@@ -166,6 +175,15 @@ margin-left: 20px;
     flex-direction: row-reverse;
     margin-left: 10px;
     align-items: flex-end;
+}
+
+.Face li{
+    margin: 10px;
+    line-height: 1.7;
+    font-size: 17px;
+    font-family: cursive;
+    color:white;
+    list-style: none;
 }
 
 .Face .pic-container{
@@ -177,6 +195,20 @@ margin-left: 20px;
     justify-content: space-around;
     align-items: center;
     
+}
+.Face .pic-container span{
+    font-size: 3rem;
+    text-transform: uppercase;
+    padding-bottom: 3%;
+    display: block;
+}
+.Face .pic-container img{
+    position: relative;
+    border: 3px rgb(4, 4, 19) solid;
+    max-width: 150%;
+    max-height: 150%;
+    margin-top: 80%;
+
 }
 
 
@@ -192,6 +224,13 @@ margin-left: 20px;
     font-size: 3rem;
     z-index: 1;
 }
+.Face img{
+    max-width: 100%;
+    margin: auto;
+    border: 3px rgb(4, 4, 19) solid;
+    border-radius: 40%;
+    width: 300px;
+}
 
 .main-container {  
     height: auto;
@@ -203,10 +242,6 @@ margin-left: 20px;
     margin-bottom: 1px;
 }
 
-.admin{
-    width: 100%;
-    height: 100%;
-}
 
 .mezo {
     display: flex;
@@ -214,6 +249,13 @@ margin-left: 20px;
     flex-direction: row-reverse;
     align-items: flex-end;
 }
+
+.Me{
+    width: 70%;
+    margin-top: 100px;
+    background-image: radial-gradient(rgb(32, 22, 31),rgba(4,4,4,.99));
+    }
+
 
 
 /**************BURGER MENU************/
@@ -364,7 +406,15 @@ margin-left: 20px;
             font-size: 1rem;
         }
         
-
+        .Me{
+            width: 90%;
+            background-image: radial-gradient(rgb(32, 22, 31),rgba(4,4,4,.99));
+            }
+            .Face .pic-container img{
+                position: relative;
+                border: 3px rgb(4, 4, 19) solid;
+                width: 20rem;
+        }
     }
 
 
